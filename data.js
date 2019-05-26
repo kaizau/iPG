@@ -81,6 +81,20 @@ var q = [
 	'What do you know about this space/product others don&#39;t know?'
 ];
 
+var more_q = [
+	``,
+	``,
+	``,
+];
+
+// Poor man's weighting
+q = q
+	.concat(more_q)
+	.concat(more_q)
+	.concat(more_q)
+	.concat(more_q)
+	.concat(more_q);
+
 // Tips
 var tips = [
 	'Try to have quick and concise answers.',
