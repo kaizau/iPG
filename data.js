@@ -94,7 +94,7 @@ var more_q = [
 	`Is this consumer or enterprise?`,
 	`What do people currently use?`,
 	`What previous companies were similar?`,
-	`Plans if you don't get into YC?**`,
+	`Plans if you don't get into YC?`,
 	`Biggest problem currently?`,
 	`Biggest problem 6 months from now?`,
 	`Why are you the right team?`,
