@@ -81,6 +81,36 @@ var q = [
 	'What do you know about this space/product others don&#39;t know?'
 ];
 
+var more_q = [
+	`So it's like Quantified Self?`,
+	`Isn't this Draconian / Orwellian?`,
+	`Is this a community or software?`,
+	`Is the social part scalable?`,
+	`What's to stop someone from implementing you as a feature?`,
+	`How will you build so many apps / modules?`,
+	`What's your strategy for dealing with personal data?`,
+	`Mobile app?`,
+	`Why is now the right time for this idea?`,
+	`Is this consumer or enterprise?`,
+	`What do people currently use?`,
+	`What previous companies were similar?`,
+	`Plans if you don't get into YC?**`,
+	`Biggest problem currently?`,
+	`Biggest problem 6 months from now?`,
+	`Why are you the right team?`,
+	`Tell us about each of your backgrounds.`,
+	`Why YC?`,
+	`Why Malaysia?`,
+];
+
+// Poor man's weighting
+q = q
+	.concat(more_q)
+	.concat(more_q)
+	.concat(more_q)
+	.concat(more_q)
+	.concat(more_q);
+
 // Tips
 var tips = [
 	'Try to have quick and concise answers.',

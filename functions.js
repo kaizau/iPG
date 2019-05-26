@@ -1,5 +1,5 @@
 /* --- Question Functions ---
-   -------------------------------------------------- */
+	 -------------------------------------------------- */
 
 function next_q()
 {
@@ -7,6 +7,11 @@ function next_q()
 	{
 		
 		var question = q.shift();
+		
+		// Remove all instances of question
+		window.q = q.filter(function (item) {
+			return item !== question;
+		});
 		
 		if (question != 'done')
 		{
@@ -28,7 +33,7 @@ function next_q()
 
 
 /* --- Timer Functions ---
-   -------------------------------------------------- */
+	 -------------------------------------------------- */
 
 function timer_tick()
 {
@@ -73,7 +78,7 @@ function timer_restart()
 
 
 /* --- Tip Functions ---
-   -------------------------------------------------- */
+	 -------------------------------------------------- */
 
 function display_tip()
 {
