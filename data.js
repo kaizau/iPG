@@ -107,8 +107,6 @@ var more_q = [
 q = q
 	.concat(more_q)
 	.concat(more_q)
-	.concat(more_q)
-	.concat(more_q)
 	.concat(more_q);
 
 // Tips
